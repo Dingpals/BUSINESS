@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .header-background {
+          background-color: wheat;
+        }
+      
+        .header-background:hover {
+          background-color: #ccc;
+        }
+      
+        .header-links a {
+          color: black;
+          transition: color 0.3s ease; 
+        }
+      
+        .header-links a:hover {
+          color: white; 
+        }
+
+        /* CSS for hover effect on product images */
+        .product-card:hover img {
+          transform: scale(1.1); /* Scale up the image on hover */
+          transition: transform 0.3s ease; /* Smooth transition for the scale change */
+        }
+      </style>
+      <div id="root">
+        <div>
+          <div>
+            <div class="flex py-4 px-8 items-center justify-between gap-10 header-background">
+              <div class="flex w-1/6 lg:w-1/2 gap-5 header-links">
+                <i class="fa-solid fa-bars text-2xl"></i>
+                <div class="hidden lg:flex items-center gap-5">
+                  <a href="index.html" class="text-2xl">Home</a>
+                  <a href="product.html" class="text-2xl">Product</a>
+                  <a href="category.html" class="text-2xl">Category</a>
+                  <a href="contacts.html" class="text-2xl">Contact</a>
+                </div>              
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    <div class="flex justify-center">
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md product-card">
+            <div class="px-6 py-4">     
+                <img src="https://imagedelivery.net/2DfovxNet9Syc-4xYpcsGg/e5f77db6-80bd-4947-6f1e-97c5389f2500/product" alt="Product Image" class="w-full mb-11">             
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Nike SB x Jordan 4 "Pine Green"</h2>         
+                <p class="text-gray-600 mb-6"> Meanwhile, the polyurethane midsole has been divided into a few layers, the lower ones white, the upper Pine Green.</p>
+                <p class="text-gray-800 font-bold mb-2">₱19.451,60</p>  
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md product-card">
+            <div class="px-6 py-4">
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Samba_OG_Shoes_White_B75806_01_standard.jpg" alt="Product Image" class="w-40 md:w-full mb-14">
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">SAMBA OG</h2>
+                <p class="text-gray-600 mb-6">This release is now available to adiClub members. Join the club for more members only discounts, rewards and early access.</p>       
+                <p class="text-gray-800 font-bold mb-2">₱6,800</p>          
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md product-card">
+            <div class="px-6 py-4">
+                <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F07%2Fnew-balance-327-off-white-green-release-info-1.jpg?cbr=1&q=90" alt= "Product Image" class="w-30 md:w-30 mb-14">
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">New Balance 327</h2>
+                <p class="text-gray-600 mb-6"> a flexible arch support that provided unparalleled balance and comfort in the shoe. Its commitment to quality and comfort has made it a favorite among runners for decades.</p>
+                <p class="text-gray-800 font-bold mb-2">₱2,995.00</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md product-card">
+            <div class="px-6 py-4">                
+                <img src="https://i.ebayimg.com/images/g/7pQAAOSwJc5kY23b/s-l1200.webp" alt="Product Image" class="w-full mb-1">          
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Travis Scott's Nike x Fragment </h2>            
+                <p class="text-gray-600 mb-6"> The first Air Jordan shoe was produced for basketball player Michael Jordan during his time with the Chicago Bulls.</p>              
+                <p class="text-gray-800 font-bold mb-2">₱ 72,000</p>               
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md product-card">
+            <div class="px-6 py-4">                
+                <img src="https://dynamic.zacdn.com/QYIuUYmN2dSCWmfv_grd4UHYLy4=/filters:quality(70):format(webp)/https://static-ph.zacdn.com/p/puma-3720-8644622-1.jpg"  alt="Product Image" class="w-fullrem mb-100">                
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Puma Suede</h2>                
+                <p class="text-gray-600 mb-6">In 1971, PUMA signed an endorsement agreement with basketball star Walt “Clyde” Frazier..</p>            
+                <p class="text-gray-800 font-bold mb-2">₱12,500.00</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

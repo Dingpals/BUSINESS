@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <style>
+        .header-background {
+          background-color: wheat;
+        }
+      
+        .header-background:hover {
+          background-color: #ccc;
+        }
+      
+        .header-links a {
+          color: black; /* Set the default color of the links */
+          transition: color 0.3s ease; /* Smooth transition for the color change */
+        }
+      
+        .header-links a:hover {
+          color: white; /* Change the color of the links on hover */
+        }
+      </style>
+    <div>
+
+        <div>
+          <div class="flex py-4 px-8 items-center justify-between gap-10">
+            <div class="flex w-1/6 lg:w-1/2 gap-5">
+              <i class="fa-solid fa-bars text-2xl"></i>
+              <div class="hidden lg:flex items-center gap-5">
+                  <a href="index.html" class="text-2xl">Home</a>
+                  <a href="product.html" class="text-2xl">Product</a>
+                  <a href="category.html" class="text-2xl">Category</a>
+                  <a href="contacts.html" class="text-2xl">Contact</a>
+                </div>              
+          </div>
+        </div>
+      </div>
+      <br><br><br><div class="bg-gray flex items-center justify-center mt-10">
+        <div class="max-w-8xl mx-10 bg-white overflow-hidden shadow-md grid grid-cols-4 gap-4">
+            <div class="relative group">
+                <img src="https://logowik.com/content/uploads/images/new-balance.jpg"
+                    alt="Image 1" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                        <p class="text-white py-2 text-4xl font-bold">Browse</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">NEW BALACNCE</h2>
+                    <p class="text-gray-600">So comfortable, your step count is already trending up. Discover everyday sneakers you need</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="https://image.shutterstock.com/image-photo/image-260nw-2293213071.jpg"
+                    alt="Image 2" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                        <p class="text-white py-2 text-4xl font-bold">Browse</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">ADIDAS</h2>
+                    <p class="text-gray-600">Experience comfort with Adidas footwear paired with socks offers coziness with every step.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="https://i.pinimg.com/564x/49/41/d4/4941d4c5c9c194fa533f50984042f667.jpg"
+                    alt="Image 3" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                    <p class="text-white py-2 text-4xl font-bold">Browse</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">NIKE</h2>
+                    <p class="text-gray-600">Discover unparalleled comfort with NIKE paired with socks, redefining coziness with every step.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="https://i.pinimg.com/474x/18/26/de/1826deaf09eb8482461790d0c2e28dd4.jpg"
+                    alt="Image 4" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                        <p class="text-white py-2 text-4xl font-bold">Browse</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">PUMA</h2>
+                    <p class="text-gray-600">Step into pure comfor with PUMA socks redefine cozy, making every step a delight.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
